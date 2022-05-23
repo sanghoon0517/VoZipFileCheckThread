@@ -52,7 +52,7 @@ public class TrayIconHandler {
 			ActionListener action) {
 		if (SystemTray.isSupported()) {
 			if (trayIcon != null) {
-				trayIcon = new TrayIcon(createImage("img/blue_icon.png", "innerIcon"));;
+				trayIcon = null;
 			}
 
 			trayIcon = new TrayIcon(image);
