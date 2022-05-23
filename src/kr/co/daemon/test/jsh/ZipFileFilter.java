@@ -9,7 +9,7 @@ public class ZipFileFilter implements FilenameFilter{
 		// TODO Auto-generated method stub
 		boolean isZip = false;
 		
-		if(name.toLowerCase().endsWith(".zip") == true) {
+		if(name.toUpperCase().startsWith("VOZIP") == true && name.toLowerCase().endsWith(".zip") == true) {
 			isZip = true;
 		} else {
 			isZip = false;
