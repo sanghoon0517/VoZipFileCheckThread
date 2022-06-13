@@ -23,7 +23,8 @@ import org.zeroturnaround.zip.ZipUtil;
 public class VoZipFileCheckThread extends Thread{
 	
 //	private static String path = "C:/dev/tempVOFile/";
-	private String path = "C:/DGBC/iStudio/workspace/DAON/src-biz/com/dgbc/daon/cc/ex/core/";
+//	private String path = "C:/DGBC/iStudio/workspace/DAON/src-biz/com/dgbc/daon/cc/ex/core/";
+	private String path = "C:/DGBC/";
 	
 	private static void threadSleep(long millsec) {
 		try {
